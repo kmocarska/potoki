@@ -23,9 +23,9 @@ tr -cs [a-zA-Z0-9] [\n*] > plik.txt
 
 9.
 Napisać polecenie zliczające sumę znaków z pierwszych trzech linii pliku "/etc/passwd"
-
+```
 kina@Kina-Linux:~/etc$ cat passwd | head -n 3 | wc -c
-
+```
 
 4.
 Wyświetl linie o numerach 3, 4 i 5 z pliku "/etc/passwd"
