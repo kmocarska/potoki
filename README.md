@@ -314,4 +314,16 @@ razem 156
 
 ```
 
+13 
+Korzystając z wyników polecenia
+who
+wyświetlić na ekran loginy i daty zalogowania. Wyniki należy
+posortować rosnąco względem loginów
+
+```
+kina@Kina-Linux:~$ who | tr -s ' ' ' '| cut -d' ' -f1,3-5|sort
+kina 2013-11-19 16:06
+kina 2013-11-19 19:15 (:0.0)
+
+```
 
