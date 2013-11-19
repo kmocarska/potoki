@@ -28,9 +28,7 @@ Wyświetl po 5 pierwszych linii wszystkich plików w swoim katalogu domowym w ta
 były wyświetlane ich nazwy
 
 ```
-kina@Kina-Linux:/home$ head &HOME/* -n 5 -q
-[1] 4228
-bash: HOME/*: Nie ma takiego pliku ani katalogu
+
 kina@Kina-Linux:/home$ head $HOME/* -n 5 -q
 head: błąd czytania „/home/kina/2013-11-18”: Jest katalogiem
 head: błąd czytania „/home/kina/2013+11+18”: Jest katalogiem
