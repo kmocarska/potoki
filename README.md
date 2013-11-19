@@ -1,5 +1,5 @@
 Potoki
-1.
+1
 Wyświetl plik "/etc/passwd" z podziałem na strony przyjmując, że strona na 5 linii tekstu. 
 
 ```
@@ -11,7 +11,7 @@ sys:x:3:3:sys:/dev:/bin/sh
 sync:x:4:65534:sync:/bin:/bin/sync
 ```
 
-2.
+2
 Koraystając z polecenia "cat" utwórz plik "tekst3.txt", który będzie składał się z zawartości
 pliku "tekst1.txt", ciągu znaków podanego ze standardowego wejścia (klawiatury) i pliku
 "tekst2.txt".
@@ -23,7 +23,8 @@ touch tekst2.txt
 cat tekst1.txt tekst2.txt > tekst3.txt 
 
 ```
-3. Wyświetl po 5 pierwszych linii wszystkich plików w swoim katalogu domowym w taki sposób, aby nie
+3
+Wyświetl po 5 pierwszych linii wszystkich plików w swoim katalogu domowym w taki sposób, aby nie
 były wyświetlane ich nazwy
 
 ```
@@ -234,7 +235,7 @@ hplip:x:113:7:HPLIP system user,,,:/var/ru /hplip:/bi /false
 sa ed:x:114:123::/home/sa ed:/bi /false
 ki a:x:1000:1000:Karoli a Mocarska,,,:/home/ki a:/bi /bash
 ```
-7.
+7
 Za pomocą filtru "tr" wykonaj modyfikację pliku "plik.txt", polegającą na umieszczeniu
 każdego słowa w osobnej linii.
 
@@ -249,7 +250,7 @@ Zlicz wszystkie pliki znajdujące się w katalogu "/etc" i jego podkatalogach.
 
 ```
 
-9.
+9
 Napisać polecenie zliczające sumę znaków z pierwszych trzech linii pliku "/etc/passwd"
 ```
 kina@Kina-Linux:~/etc$ cat passwd | head -n 3 | wc -c
